@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tappezzeria & Tendaggi | Cristian Pizzarelli</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              gold: {
+                50: '#fbf8eb',
+                100: '#f5efcd',
+                200: '#ebe09f',
+                300: '#dec769',
+                400: '#d3ae3e',
+                500: '#bf922b',
+                600: '#a27122',
+                700: '#82541f',
+                800: '#6b4320',
+                900: '#58381f',
+              },
+              slate: {
+                850: '#151e2e',
+              }
+            },
+            fontFamily: {
+              serif: ['Georgia', 'Cambria', 'Times New Roman', 'Times', 'serif'],
+              sans: ['Inter', 'system-ui', 'sans-serif'],
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      /* Smooth scrolling for anchor links */
+      html {
+        scroll-behavior: smooth;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.30.0",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.555.0"
+  }
+}
+</script>
+</head>
+  <body class="bg-slate-50 text-slate-900 antialiased selection:bg-gold-200 selection:text-slate-900">
+    <div id="root"></div>
+  </body>
+</html>
